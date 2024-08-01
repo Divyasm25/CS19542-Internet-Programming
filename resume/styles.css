@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:rgb(61, 64, 91);
+    color: white;
+    text-align: left;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    display: flex;
+}
+img{
+    width: 20%;
+    padding-left: 100px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+li {
+    margin-bottom: 0.5rem;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}
+nav  {
+    background-color:rgb(171, 172, 176);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:rgb(61, 64, 91);
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.education-table th, .education-table td {
+    padding: 12px 15px;
+    border: 1px solid rgb(244, 241, 222);
+}
+
+.education-table th {
+    background-color: rgb(146, 149, 173);
+    font-weight: bold;
+}
+
+.education-table tr:nth-child(even) {
+    background-color: rgb(185, 187, 203);
+}
+
+.education-table tr:hover {
+    background-color:rgb(198, 198, 204);
+}
+h2 {
+    margin-top: 80px;
+    font-style: italic;
+}
+
+
+
+.skills-list li {
+    background: #f0f0f0;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+}
+
+
+.skills-list li::before {
+    content: '✔';
+    color: #4CAF50;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+.projects-list li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid ;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+}
+
