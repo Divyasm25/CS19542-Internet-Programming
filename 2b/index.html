@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>REC</title>
+</head>
+<body>
+<img src="head.png" alt="header">
+
+<p class="h">Rajalakshmi Engineering College, Thandalam, Chennai</p>
+<div class="nav1">
+<div class="nav">
+<p>CSE</p>
+<nav class="navv">
+    <a href="#introduction" onclick="showSection('introduction')">Introduction</a>
+    <a href="#Opportunities" onclick="showSection('Opportunities')">Opportunities</a>
+    <a href="#Faculty Members" onclick="showSection('Faculty')">Faculty Members</a>
+    <a href="#Lab Facility" onclick="showSection('Lab')">Lab Facility</a>
+ 
+</nav>
+</div>
+<div class="col">
+<p class="wel" style="font-size: 30px;">Welcome to department of CSE</p>
+
+<section id="introduction" >
+    <h2>Introduction</h2>
+    
+    <p>Rajalakshmi Engineering College, an autonomous institution affiliated to Anna University, Chennai, was established in the year 1997 under the aegis of Rajalakshmi Educational Trust whose members have had consummate experience in the fields of education and industry. The College has grown from strength to strength in the last 25 years and progressing towards Excellence in Engineering Education, Research and Development.
+    </p>
+</section>
+
+<section id="Opportunities">
+    <h2>Opportunities</h2>
+    <p>Computer science and engineering graduates are the pillars of the current and emerging information era. Opportunities include pursuing Master of Science Programs in reputed Universities of U.S and Europe. and taking up research assignments in Hardware, System Software, Computer Engineering, Multimedia, Networking and Communication areas.</p>
+
+        <p>Computer science is a broad field with many different job paths to choose from. With so many options, it can be difficult to decide on a certain route to study and focus on. Even if mastering only one specific subject of interest in Computer Science is possible, it is necessary to acquire all of the fundamentals connected to other areas in order to implement and use that subject of interest. For example, when writing Server-side scripts, we must know how to obtain data from databases and/or perform HTTP requests to retrieve information/outputs from APIs, in addition to dealing with the Frontend elements and delivering accordingly. So, in order to use databases and retrieve data via APIs, we must first understand the fundamental ideas and applications.</p>
+</section>
+
+<section id="Faculty">
+    <h2>Faculty</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sl No</th>
+                <th>Name of the Faculty</th>
+                <th>Designation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Dr.P.Kumar</td>
+                <td>Director and HOD - CSE</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Dr.V.Murali Bhaskaran</td>
+                <td>Dean Academics and Professor</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Dr. S. Vinod Kumar</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Dr. N.Srinivasan</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Dr.S.Anantha Sivaprakasam</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Dr.K. Anand</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Dr.K.Ananthajothi</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Dr.R.Sabitha</td>
+                <td>Professor</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="Lab">
+    <h2>Lab Facility</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Lab Name</th>
+                <th>Equipments Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Game Programming</td>
+                <td>
+                    <strong>Software:</strong> Unity, Python, Blender, Java, Apache Server, Open Office, GCC, Oracle, Visual Studio (Atom, NetBeans, Eclipse, Android Studio)<br>
+                    <strong>Platform:</strong> Linux<br>
+                    <strong>Equipment List:</strong><br>
+                    No. of Systems: 37<br>
+                    Area of the Lab: 84.54 Sq.m.
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>DBMS Lab</td>
+                <td>
+                    <strong>Software:</strong> SQL, MySQL, Oracle Academy Modules, OpenSQL<br>
+                    <strong>Equipment List:</strong><br>
+                    No. of Systems: 35<br>
+                    Area of the Lab: 84.54 Sq.m.
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Mobile Applications Lab</td>
+                <td>
+                    <strong>Software:</strong> Visual Studio (Atom, NetBeans, Eclipse, Android Studio), Oracle, Java<br>
+                    <strong>Platform:</strong> Linux, Fedora<br>
+                    <strong>Equipment List:</strong><br>
+                    No. of Systems: 40<br>
+                    Area of the Lab: 84.54 Sq.m.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+</div>
+</div>
+<script>
+    function showSection(sectionId) {
+        document.querySelectorAll('section').forEach(section => {
+            section.style.display = 'none';
+        });
+        document.getElementById(sectionId).style.display = 'block';
+    }
+
+    showSection('introduction');
+</script>
+</body>
+</html>
